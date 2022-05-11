@@ -6,3 +6,10 @@ The program reads a .dat or .txt file with experimental data from JxV (current d
 
 ## Examples
 
+``
+$~ python3 dark.py
+``
+
+![Sample](images/exampledark.png)
+
+In this example the data was fitted with 3 different models (Richardson-Schottky, Mott-Gurney for space charge limited current and a circuital model created by Marlus et al (doi:10.1063/1.4813759)). To extract the correct parameters you need to know with which model you are working with.
