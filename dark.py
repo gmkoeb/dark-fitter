@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from scipy.optimize import leastsq 
 from sklearn.metrics import r2_score 
 
-data = np.loadtxt('Terraço03112021.txt') 
-x = data[:, 0]/32 
+data = np.loadtxt('exampledata.txt') 
+x = data[:, 0]/32 #the voltage was divided by 32 because we had 32 solar cells operating in series
 y = data[:, 1]
 
 
