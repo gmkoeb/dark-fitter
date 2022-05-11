@@ -6,3 +6,9 @@ The program reads a .dat or .txt file with experimental data from JxV (current d
 
 ## Examples
 
+``
+$- python3 dark.py
+
+
+``
+![Sample](images/darkexample.png)
